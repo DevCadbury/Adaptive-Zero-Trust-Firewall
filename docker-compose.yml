@@ -42,7 +42,7 @@ services:
     environment:
       - AUTH_PORT=8081
       - JWT_SECRET=${JWT_SECRET:-dev-secret-change-in-production-ZTNA2026!}
-      - MONGODB_URI=${MONGODB_URI:-mongodb+srv://chamandb:chaman123@firewall.qvbiaop.mongodb.net/?appName=firewall}
+      - MONGODB_URI=
       - MONGODB_DATABASE=${MONGODB_DATABASE:-ztna-firewall}
       - ENV=development
     depends_on:
